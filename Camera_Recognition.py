@@ -1,3 +1,6 @@
+#-------------------------------- UNO CARDS RECOGNITION FROM CAMERA STREAM
+
+# ------------------------ IMPORT LIBRARIES
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
@@ -6,6 +9,7 @@ from sklearn import datasets
 from sklearn.ensemble import RandomForestClassifier
 import joblib
 
+# ------------------------ DEFINE FUNCTION
 #display_color() will check each color mask stored in 'colors' dictionary and display the color
 #(dictionary key)
 def display_color(dictionary, numbr):
